@@ -16,6 +16,13 @@
   --active-filter-item: hsl(220, 98%, 61%);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 html {
   font-size: 18px;
 }
@@ -29,13 +36,6 @@ body {
   width: 100vw;
   min-height: 100vh;
   background-color: var(--secondary-light-bg-color);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 .icon {
